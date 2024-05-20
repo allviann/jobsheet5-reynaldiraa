@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edit Data Sepeda Motor</title>
+    <title>Edit Data Mobil</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body style="background: lightgray">
@@ -24,7 +24,7 @@
                             </div>
 
                             <div class="form-group">
-                                <label class="font-weight-bold">NAMA MOTOR</label>
+                                <label class="font-weight-bold">NAMA MOBIL</label>
                                 <input type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title', $post->title) }}" placeholder="Masukkan Nama Motor">
                             
                                 <!-- error message untuk title -->
